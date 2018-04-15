@@ -1,0 +1,6 @@
+cloud-parent/cloud-eureka-consumer/target
+cloud-parent/cloud-eureka/target
+cloud-parent/cloud-eureka-client/target
+*.iml
+cloud-parent.ipr
+cloud-parent.iws
