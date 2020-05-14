@@ -24,6 +24,12 @@
             <version>1.5.4.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+            <version>1.5.3.RELEASE</version>
+        </dependency>
+        <!-- web和eureka一起会有冲突，所以要加上jackson的版本-->
+        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>2.8.9</version>
